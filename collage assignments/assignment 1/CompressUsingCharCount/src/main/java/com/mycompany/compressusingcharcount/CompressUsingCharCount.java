@@ -10,7 +10,7 @@ public class CompressUsingCharCount {
         String result = "";
         int count = 1;
     for (int i = 0; i < text.length(); i++) {
-        while (i + 1 < text.length() &&
+        while (i + 1 < text.length() &&                 // condtions check by order
                text.charAt(i) == text.charAt(i + 1)) {
             count++;
             i++;
